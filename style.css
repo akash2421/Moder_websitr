@@ -174,3 +174,36 @@ margin-top: 20px;    }
 {
     height: 46px;
 }
+
+.feature-header
+{
+    text-align: center;
+}
+.feature-section
+{
+    padding: 80px var(--padding-inline--section) 0;
+    background-image: url(assets/copy.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
+.feature-header h2
+{
+    margin-bottom: 20px;
+}
+.feature-area
+{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.feature-card
+{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+
+}
