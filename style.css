@@ -207,3 +207,20 @@ margin-top: 20px;    }
     text-align: center;
 
 }
+.big-feature-section
+{
+    padding: 30px var(--padding-inline--section);
+
+}
+.big-feature-container
+{
+    gap: 30px
+}
+.big-img img{
+    width: 100%;
+}
+.big-description
+{
+    flex-direction: column;
+    align-items: flex-start;
+}
