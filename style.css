@@ -158,3 +158,19 @@ margin-top: 20px;    }
 {
     margin-top: 20px;
 }
+.company-header
+{
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+}
+.logos
+{
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.logo
+{
+    height: 46px;
+}
