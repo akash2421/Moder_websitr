@@ -141,8 +141,10 @@ border: 0.5px solid var(--secondary-text-color);
 
 .nav-toggle
 {
-    display: hidden;
+    display: none;
     margin-right: 20px;
+    font-size: 30px;
+
 }
 header{
     padding: 50px var(--padding-inline--section);
