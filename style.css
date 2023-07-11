@@ -349,16 +349,15 @@ footer{
 	width:60px;
 	height:60px;
 	bottom:40px;
-	left:40px;
+	right:40px;
 	background-color:#0C9;
 	color:#FFF;
-	border-radius:50px;
+	border-radius:30px;
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
-    font-size: 35px;
+    font-size: 40px;
 }
 .float i{
-	margin-top:15px;
+	margin-top:10px;
     margin-right: 5px;
-    margin-left: 10px;
 }
