@@ -272,3 +272,46 @@ background-size: cover;
 { margin-block: 20px ;
  gap: 20px;
 }
+
+.cta-section-conatainer
+{
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+
+}
+.cta-section
+{
+    background-color: #1d69a3;
+    padding: 120px var(--padding-inline--section) 80px;
+}
+.cta-section-conatainer p{
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer{
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+.link-column
+{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.footer-container
+{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.subfooter{
+    background-color: #b9cde4;
+    padding: 20px;
+}
+.sub-container
+{
+ gap: 30px;
+ justify-content: center;
+}
