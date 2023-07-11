@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Akash</title>
     <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="media.css">
 </head>
 <body>
 
@@ -19,7 +20,7 @@
             <a href="" class="company-logo">
                   <img src="assets/asset 1.png" alt="">
             </a>
-         <div class="nav-links">
+         <div class="nav-links" id="nav-links">
             <ul class="flex">
                 <li><a href="" class="hover-links">Product</a></li>
                 <li><a href="" class="hover-links">Customer</a></li>
@@ -30,7 +31,8 @@
                
             </ul>
          </div>
-
+<a href="#" class="nav-toggle hover-links" id="menu-toggle">
+    <i class="fa-solid fa-bars"></i></a>
         </div>
     </nav>
     <header>
@@ -148,7 +150,7 @@
         </div>
     </Section>
     <Section class="big-feature-section">
-        <div class="container flex big-feature-container" style="flex-direction: row-reverse;">
+        <div class="container flex big-feature-container" id="secound-big-feature" >
         <div class="big-img">
             <img src="assets/asset 21.png" alt="">
         </div>
@@ -255,5 +257,15 @@
 
     <script src="https://kit.fontawesome.com/fcd4ed784c.js" crossorigin="anonymous"></script>
 
+    <script>
+        const toggle=document.getElementById('menu-toggle')
+        const navlinks=document.getElementById('nav-links')
+
+        toggle.addEventListener('click',() => {
+            navlinks.classList.toggle('active')
+        })
+
+
+    </script>
 </body>
 </html>
